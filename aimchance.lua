@@ -16,7 +16,7 @@ local function watermark()
     local sv = aimchance
     draw.Color( 255, 255, 255, 155 )
     draw.SetFont(font)
-    draw.Text( 20, 35, "Oliver's Hitchance Script, current hitchance % : [" .. tostring((100 - sv)) .. "]" )
+    draw.Text( 20, 35, "Oliver's Aimbot Chance Script, current hitchance % : [" .. tostring((100 - sv)) .. "]" )
 end
 callbacks.Register( "Draw", "draw", watermark)
 callbacks.Register( "CreateMove", randhit)
